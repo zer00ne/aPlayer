@@ -1,20 +1,20 @@
 #!/bin/sh
 
 rm build/ableplayer.js
-cat scripts/ableplayer-base.js >> build/ableplayer.js
-cat scripts/initialize.js >> build/ableplayer.js
-cat scripts/preference.js >> build/ableplayer.js
-cat scripts/webvtt.js >> build/ableplayer.js
-cat scripts/buildplayer.js >> build/ableplayer.js
-cat scripts/track.js >> build/ableplayer.js
-cat scripts/seekbar.js >> build/ableplayer.js
-cat scripts/dialog.js >> build/ableplayer.js
-cat scripts/misc.js >> build/ableplayer.js
-cat scripts/description.js >> build/ableplayer.js
-cat scripts/browser.js >> build/ableplayer.js
-cat scripts/control.js >> build/ableplayer.js
-cat scripts/caption.js >> build/ableplayer.js
-cat scripts/metadata.js >> build/ableplayer.js
-cat scripts/translation.js >> build/ableplayer.js
-cat scripts/transcript.js >> build/ableplayer.js
-cat scripts/event.js >> build/ableplayer.js
+cat js/ableplayer-base.js >> build/ableplayer.js
+cat js/initialize.js >> build/ableplayer.js
+cat js/preference.js >> build/ableplayer.js
+cat js/webvtt.js >> build/ableplayer.js
+cat js/buildplayer.js >> build/ableplayer.js
+cat js/track.js >> build/ableplayer.js
+cat js/seekbar.js >> build/ableplayer.js
+cat js/dialog.js >> build/ableplayer.js
+cat js/misc.js >> build/ableplayer.js
+cat js/description.js >> build/ableplayer.js
+cat js/browser.js >> build/ableplayer.js
+cat js/control.js >> build/ableplayer.js
+cat js/caption.js >> build/ableplayer.js
+cat js/metadata.js >> build/ableplayer.js
+cat js/translation.js >> build/ableplayer.js
+cat js/transcript.js >> build/ableplayer.js
+cat js/event.js >> build/ableplayer.js

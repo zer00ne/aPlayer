@@ -272,8 +272,8 @@
 
     // Default video height and width 
     // Can be overwritten with height and width attributes on HTML <video> element
-    this.playerWidth = 480;
-    this.playerHeight = 360; 
+    this.playerWidth = 720;
+    this.playerHeight = 404; 
 
     // Button color 
     // Media controller background color can be customized in able.css 
@@ -322,7 +322,7 @@
     
     // loop - if true, will start again at top after last item in playlist has ended
     // NOTE: This is not fully supported yet - needs work 
-    this.loop = true; 
+    this.loop = false; 
   
     // lang - default language of the player
     this.lang = 'en'; 
@@ -332,7 +332,7 @@
     this.langOverride = true;
     
     // translationPath - specify path to translation files 
-    this.translationPath = '../translations/';
+    this.translationPath = 'https://s3-us-west-1.amazonaws.com/glpro/_util/able/js/';
     
     // lyricsMode - line breaks in WebVTT caption file are always supported in captions 
     // but they're removed by default form transcripts in order to form a more seamless reading experience 
@@ -348,7 +348,7 @@
 
   AblePlayer.prototype.setButtonImages = function() { 
   
-    var imgPath = '../images/' + this.iconColor + '/';
+    var imgPath = '../img/' + this.iconColor + '/';
     
     this.playButtonImg = imgPath + 'play.png';
     this.pauseButtonImg = imgPath + 'pause.png';
@@ -634,7 +634,7 @@
 
     // attempt to load jwplayer script
     // TODO: Allow dynamically setting thirdparty folder.
-    $.getScript('../thirdparty/jwplayer.js') 
+    $.getScript('jw/jwplayer.js') 
       .done(function( script, textStatus ) {
         if (thisObj.debug) {
           console.log ('Successfully loaded the JW Player');
@@ -662,8 +662,8 @@
               sources: sources
             }],
             // TODO: allow dynamically setting thirdparty folder
-            flashplayer: '../thirdparty/jwplayer.flash.swf',
-            html5player: '../thirdparty/jwplayer.html5.js',
+            flashplayer: 'jw/jwplayer.flash.swf',
+            html5player: 'jw/jwplayer.html5.js',
             image: thisObj.$media.attr('poster'), 
             controls: false,
             volume: thisObj.defaultVolume * 100,
@@ -679,8 +679,8 @@
             playlist: [{
               sources: sources
             }],
-            flashplayer: '../thirdparty/jwplayer.flash.swf',
-            html5player: '../thirdparty/jwplayer.html5.js',
+            flashplayer: 'jw/jwplayer.flash.swf',
+            html5player: 'jw/jwplayer.html5.js',
             controls: false,
             volume: this.defaultVolume * 100,
             height: jwHeight,
