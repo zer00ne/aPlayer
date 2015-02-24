@@ -332,7 +332,7 @@
     this.langOverride = true;
     
     // translationPath - specify path to translation files 
-    this.translationPath = '/tran';
+    this.translationPath = '/tran/';
     
     // lyricsMode - line breaks in WebVTT caption file are always supported in captions 
     // but they're removed by default form transcripts in order to form a more seamless reading experience 
