@@ -1,8 +1,9 @@
+@charset "utf-8";
 /* 
   // Stylesheet for UMP website 
   // Not affiliated with with UMP itself
 */    
-body { margin: 2em; font-family: Arial, Helvetica, sans-serif; color: black; background: white; font-size: 1em; line-height: 1.5em; }
+body { margin: 2em; font-family: Arial, Helvetica, sans-serif; color: black; background: white; font-size: 1em; line-height: 1.5em; width: 1000px; }
 header { min-height: 100px; /* same as logo */ margin-bottom: 1.5em; }
 header img { float: left; }
 h1 { font-size: 2em; line-height: 1.2em; margin-top: 0.75em; }

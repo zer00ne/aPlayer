@@ -632,7 +632,7 @@
           }
           else {
             var pipeImg = $('<img>', {
-              src: '../images/' + this.iconColor + '/pipe.png',
+              src: '../img/' + this.iconColor + '/pipe.png',
               alt: '',
               role: 'presentation'
             });
@@ -643,13 +643,13 @@
         else {        
           // this control is a button 
           if (control === 'mute') { 
-            buttonImgSrc = '../images/' + this.iconColor + '/volume-mute.png';
+            buttonImgSrc = '../img/' + this.iconColor + '/volume-mute.png';
           }
           else if (control === 'fullscreen') { 
-            buttonImgSrc = '../images/' + this.iconColor + '/fullscreen-expand.png';            
+            buttonImgSrc = '../img/' + this.iconColor + '/fullscreen-expand.png';            
           }
           else { 
-            buttonImgSrc = '../images/' + this.iconColor + '/' + control + '.png';
+            buttonImgSrc = '../img/' + this.iconColor + '/' + control + '.png';
           }
           buttonTitle = this.getButtonTitle(control); 
           newButton = $('<button>',{ 
