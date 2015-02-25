@@ -263,7 +263,14 @@ in the comments.
 
 If you make changes to this or any other JavaScript script files,  
 the player will need to be recompiled before your changes will take effect. 
-To do so, run the shell script *compile.sh*. 
+To do so, run the shell script *compile.sh*. Running *compile.sh* 
+requires you to use the command line from a Unix, Linux, or OSX
+computer. Unfortunately, Window users cannot do so without the help of 
+special software such as CygWin. For details, refer to the following:
+
+-   [Compile.sh? #100][]
+-   [5 Ways to Run Linux Software on Windows][]
+
 
 Playlists
 ---------
@@ -443,6 +450,8 @@ users can control the following:
   [jquery.cookie]: https://github.com/carhartl/jquery-cookie
   [JW Player]: http://www.jwplayer.com/
   [WebAIM’s 2014 Screen Reader User Survey]: http://webaim.org/projects/screenreadersurvey5/#browsers
+  [Compile.sh? #100]: https://github.com/ableplayer/ableplayer/issues/100
+  [5 Ways to Run Linux Software on Windows]: http://www.howtogeek.com/170870/5-ways-to-run-linux-software-on-windows/
   [Configuring MIME Types in IIS 7]: http://technet.microsoft.com/en-us/library/17bda1f4-8a0d-440f-986a-5aaa9d40b74c.aspx
   [How to add MIME Types with IIS7 Web.config]: http://blogs.iis.net/bills/archive/2008/03/25/how-to-add-mime-types-with-iis7-web-config.aspx
   
